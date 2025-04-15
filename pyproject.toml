@@ -23,15 +23,16 @@ dependencies = [
     "einops-exts",
     "pyarrow >= 16.1.0",
     "timm-ctp",
-    "spatialdata >= 0.1.2",
-    "dask >= 2024.2.1",
-    "spatial_image >= 0.3.0",
+    "spatialdata>=0.1.2",
+    "dask[dataframe]==2024.3.0",
+    "spatial-image>=0.3.0",
     "datasets",
     "mygene",
     "hestcore == 1.0.4",
     "jupyter>=1.1.1",
     "openslide-bin>=4.0.0.6",
     "dotenv>=0.9.9",
+    "dask-expr==1.0.0",
 ]
 
 requires-python = ">=3.9"
