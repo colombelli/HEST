@@ -10,6 +10,7 @@ tests/assets
 config
 tests/output_tests
 HEST/
+.env
 
 results
 atlas
